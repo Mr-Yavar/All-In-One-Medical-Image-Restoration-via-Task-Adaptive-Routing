@@ -48,18 +48,18 @@ def build_train_sampler(modality_list, data_root, batch_size, shuffle=True):
 
 
 
-total_iteration = 2e5
-val_iteration = 1e3
+total_iteration = 2e2
+val_iteration = 1e2
 
-batch_size = 8
+batch_size = 3
 eps=1e-8
-lr=2e-4
+lr=4e-4
 psnr_max=0
 
 
-data_root = "/home/data/zhiwen/dataset/All-in-One/" ### Path to place data
+data_root = "data" ### Path to place data
 modality_list = ["PET", "CT", "MRI"] 
-save_dir = "experiment/AMIR"
+save_dir = "experiment"
 
 
 
