@@ -15,7 +15,7 @@ transformData = transformData()
 io=dataIO() 
 
 
-data_root = "/home/data/zhiwen/dataset/All-in-One/" ### Path to place data
+data_root = "data" ### Path to place data
 modality_list = ["PET", "CT", "MRI"] 
 save_dir = "experiment/AMIR"
 
