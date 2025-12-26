@@ -59,7 +59,7 @@ psnr_max=0
 
 data_root = "data" ### Path to place data
 modality_list = ["PET", "CT", "MRI"] 
-save_dir = "experiment"
+save_dir = "experiment/AMIR"
 
 
 
