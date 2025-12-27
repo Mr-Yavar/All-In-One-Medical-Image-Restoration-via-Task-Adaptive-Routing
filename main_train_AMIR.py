@@ -53,7 +53,7 @@ val_iteration = 1e2
 
 batch_size = 3
 eps=1e-8
-lr=4e-4
+lr=2e-4
 psnr_max=0
 
 
